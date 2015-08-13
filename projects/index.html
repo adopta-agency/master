@@ -10,10 +10,8 @@ title: {{ site.showcase_title }}
   {% for showcase in site.showcase %}
   <tr>
     <td align="center">
-      <img src="{{ showcase.image }}" width="150" align="center" />
-    </td>
-    <td>
-      {{ showcase.name }} - {{ showcase.description }}
+      <img src="{{ showcase.image }}" width="150" align="left" style="padding: 15px;" />
+      <a href="{{ showcase.url }}"><strong>{{ showcase.name }}</strong></a><br />{{ showcase.description }}
     </td>
   </tr>
   {% endfor %}
