@@ -9,7 +9,7 @@ title: {{ site.showcase_title }}
   {% for showcase in site.showcase %}
     <li style="height: 100px; line-height: 100px; vertical-align: text-middle;">
       <a href="{{ showcase.url }}"><img src="{{ showcase.image }}" width="150" align="left" style="padding: 15px;" /></a>
-      <a href="{{ showcase.url }}"><strong>{{ showcase.title }}</strong></a><br />{{ showcase.description }}
+      <a href="{{ showcase.url }}"><strong>{{ showcase.title }}</strong></a> (<em>{{ showcase.owner }}</em>)<br />{{ showcase.description }}
     </li>
   {% endfor %}
 </ul>
