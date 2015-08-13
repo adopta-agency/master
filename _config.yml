@@ -20,3 +20,20 @@ BASE_PATH : http://adopta.agency
 
 categories_path : /categories.html
 tags_path : /tags.html
+
+# ---------
+# Showcase
+# ---------
+
+showcase_show: yes
+showcase_nav: no
+showcase_title: Projects
+showcase_description: This is a showcase of projects currently being developed as part of the Adopta.Agency work..
+showcase_footer: While each project uses the same blueprint, each one is potentially different in how they approach improving on the data.
+
+showcase:
+  - title: US Federal Budget
+    owner: Kin Lane
+    description: This is a project to make the US federal budget more machine readable, in hopes of building more meaningful tools on top of it. You can already access the historical budget via spreadsheets, but this project is publishing CSV, JSON, as well as an API.
+    image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-open-budget.png
+    url: http://kinlane.github.io/us-federal-budget/
