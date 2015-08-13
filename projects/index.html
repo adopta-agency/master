@@ -5,16 +5,12 @@ title: {{ site.showcase_title }}
 
 <h1>{{ site.showcase_title }}</h1>
 <p>{{ site.showcase_description }}</p>
-<hr />
-<table width="100%">
+<ul style="padding-left: 35px; list-style: circle;">
   {% for showcase in site.showcase %}
-  <tr>
-    <td align="center">
+    <li>
       <img src="{{ showcase.image }}" width="150" align="left" style="padding: 15px;" />
-      <a href="{{ showcase.url }}"><strong>{{ showcase.name }}</strong></a><br />{{ showcase.description }}
-    </td>
-  </tr>
+      <a href="{{ showcase.url }}"><strong>{{ showcase.title }}</strong></a><br />{{ showcase.description }}
+    </li>
   {% endfor %}
-</table>
-<hr />
+</ul>
 <p>{{ site.showcase_footer }}</p>
