@@ -7,7 +7,7 @@ title: {{ site.showcase_title }}
 <p>{{ site.showcase_description }}</p>
 <ul style="padding-left: 35px; list-style:none;">
   {% for showcase in site.showcase %}
-    <li>
+    <li style="height: 100px; line-height: 100px; vertical-align: text-middle;">
       <a href="{{ showcase.url }}"><img src="{{ showcase.image }}" width="150" align="left" style="padding: 15px;" /></a>
       <a href="{{ showcase.url }}"><strong>{{ showcase.title }}</strong></a><br />{{ showcase.description }}
     </li>
