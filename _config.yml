@@ -37,3 +37,8 @@ showcase:
     description: This is a project to make the US federal budget more machine readable, in hopes of building more meaningful tools on top of it. You can already access the historical budget via spreadsheets, but this project is publishing CSV, JSON, as well as an API.
     image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-open-budget.png
     url: http://kinlane.github.io/us-federal-budget/
+  - title: VA Data Portal
+    owner: Kin Lane
+    description: This project looks to move forward the conversation around VA data, making it more accessible as CSV and JSON files, and deploying simple APIs when I have the time.
+    image: http://federal-government.apievangelist.com/images/logos/va.png
+    url: http://va-data.github.io/adopta-va-portal/
