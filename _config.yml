@@ -28,8 +28,8 @@ tags_path : /tags.html
 showcase_show: yes
 showcase_nav: no
 showcase_title: Projects
-showcase_description: This is a showcase of projects currently being developed as part of the Adopta.Agency work..
-showcase_footer: While each project uses the same blueprint, each one is potentially different in how they approach improving on the data.
+showcase_description: This is a showcase of projects currently being developed as part of the Adopta.Agency work. We are just getting started, so come back often, or even better--get involved!
+showcase_footer: While each project uses the same blueprint, each one is potentially different in how they approach improving on the data. Each data steward involved with Adopta can take their projects in the direction that makes best sense to them, other team members, and consumers.
 
 showcase:
   - title: US Federal Budget
