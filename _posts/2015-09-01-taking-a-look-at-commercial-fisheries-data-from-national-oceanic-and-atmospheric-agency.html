@@ -1,0 +1,17 @@
+---
+layout: post
+title: 'Taking A Look At Commercial Fisheries Data From National Oceanic And Atmospheric Agency'
+url: http://adopta.agency/2015/09/01/taking-a-look-at-commercial-fisheries-data-from-national-oceanic-and-atmospheric-agency/
+source: http://adopta.agency/2015/09/01/taking-a-look-at-commercial-fisheries-data-from-national-oceanic-and-atmospheric-agency/
+domain: adopta.agency
+image: https://s3.amazonaws.com/kinlane-productions/federal-government/noaa/commercial-fisheries-data.png
+---
+
+<p>Someone found me on Twitter regarding our Adopta.Agency work, and introduced me to the <a href="http://www.st.nmfs.noaa.gov/commercial-fisheries/foreign-trade/">commercial fisheries data from the National Oceanic and Atmospheric Agency (NOAA)</a>. The dataset(s) fit the profile of what I am looking to evolve with Adopta, because it is potentially extremely valuable to an industry, it is currently locked up in non-machine readable formats, but more importantly I has a domain expert who was passionate about what could be done with the data.&nbsp;</p>
+<p>When you land on the home page for the commercial fisheries statistics, you experience classic government "open data", which in reality is anything but, open. Putting it on the web for humans to read, does very little for allowing anyone to analyze, and potentially build anything on top of.</p>
+<p><a href="http://www.st.nmfs.noaa.gov/commercial-fisheries/foreign-trade/"><img src="https://s3.amazonaws.com/kinlane-productions/federal-government/noaa/commercial-fisheries-data.png" alt="" width="100%" /></a></p>
+<p>Half of the links take you to PDFs, which is one of the most unusable ways to get data, while the other half takes you to pretty complex forms, which allow you to query the data.</p>
+<p><img src="https://s3.amazonaws.com/kinlane-productions/federal-government/noaa/commercial-fisheries-form.png" alt="" width="100%" /></p>
+<p>I will always choose an HTML form, over a PDF, because I can almost always write some sort of script for parsing the data in a form. It will take some work, but eventually I should be able to programmatically pull the raw data via these forms. Most of the time, I will walk away from PDFs--they just aren't usually worth the work.</p>
+<p>Many IT folks will argue that publishing HTML forms, makes government data available. I have even see government agencies successful defend against FOIA requests, by stating it is available as a form. This is just irresponsible, and encourages scraping, and misuse of government resources (aka bandwidth and compute). If there was a simple download link to a zipped up file, it would be way more efficient and responsible.</p>
+<p>The person who contacted me about the NOAA commercial fisheries data isn't 100% up to speed on how to do Adopta projects, and how work with Github--something we will change in a couple weeks, then we'll encourage her to take over the project. I am going to do some of the heavy lifting in writing the scrape scripts for extracting the data via the forms, and publish to <a href="https://github.com/national-oceanic-and-atmospheric/noaa-commercial-fisheries">a Github project I just setup</a>--stay tuned!</p>
