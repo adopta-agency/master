@@ -52,3 +52,8 @@ showcase:
     description: This project makes the data associated with President Obama's My Brother's Keeper initiative available in an open and editable format. By using the "Adopta.Agency" framework - that is, adopting Department of Education datasets - the data that the department has called "statistical indicators" for young men of color will be cleaned up, standardized, and made machine- and human-readable.
     image: http://adopta.agency/images/my-brothers-keeper.jpg
     url: http://audreywatters.github.io/mybrotherskeeper/
+  - title: ClinicalTrials.gov
+    owner: Kin Lane
+    description: This is an open data project to the Clinical Trials and Transformation Iniative (CTTI) Aggregate Analysis of ClincalTrials.gov (AACT) Database, and deliver a simple web API, making the information more acessible, and usable in a variety of platforms and implementations.
+    image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/clinical-trials-gov.png
+    url: http://adopta-agency.github.io/clinical-trials/
