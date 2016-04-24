@@ -1,2 +1,2 @@
-# web-site
-This is the adopta agency primary website.
+# master
+This is the master repo for this org.
