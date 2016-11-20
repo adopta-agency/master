@@ -37,7 +37,7 @@ showcase:
     url: http://kinlane.github.io/us-federal-budget/
   - title: VA Data Portal
     owner: Kin Lane
-    description: This project is looking to move forward the conversation around VA data, making it more accessible as CSV and JSON files, and deploying simple APIs when I have the time. The VA needs help to make sure all of its vital assetts are machine readable by default.
+    description: This project is looking to move forward the conversation around VA data, making it more accessible as CSV and JSON files, and deploying simple APIs when I have the time. The VA needs help to make sure all of its vital assetts are machine readable by default. This is continuing some of the work I did as a White House Presidential Innovation Fellow, trying to make information more available to help veterans and their families.
     image: http://federal.government.stack.network/images/logos/va.png
     url: http://va-data.github.io/adopta-va-portal/
   - title: US Department of Education Ed-Tech Data
